@@ -26,7 +26,7 @@
 具体代码
 
 ```
-export BERT_BASE_DIR=。/
+export BERT_BASE_DIR=./
 
 transformers bert \
   $BERT_BASE_DIR/bert_model.ckpt \
