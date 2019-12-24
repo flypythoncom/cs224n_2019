@@ -1,6 +1,18 @@
-### how to convert bert Converting Tensorflow Checkpoints to pytorch model file
+
+update to transformer 2.3.0
+
+转换工具已经失效
+
+ chinese bert   
+ 
+ https://github.com/ymcui/Chinese-BERT-wwm/blob/master/README_EN.md
+
+下载 BERT-wwm-ext, Chinese 或者 BERT-wwm, Chinese pytorch模型
 
 
+-------
+
+transformer 2.1.1
 ### 如何将bert model 的Tensorflow模型 转换为pytorch模型
 
 

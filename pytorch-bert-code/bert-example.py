@@ -32,7 +32,7 @@ bert_config = BertConfig.from_json_file(bert_config_file)
 tokenizer = tokenization(vocab_file=vocab_file, do_lower_case=do_lower_case)
 
 # 加载模型
-model_bert =  BertModel.from_pretrained(bert_path)
+model_bert =  BertModel.from_pretrained(bert_path,config=bert_config)
 model_bert.to(device)
 
 

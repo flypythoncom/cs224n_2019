@@ -2,7 +2,8 @@
 import time
 import torch
 import numpy as np
-from train_eval import train
+from train_eval import train, init_network
+from importlib import import_module
 import argparse
 from utils import build_dataset, build_iterator, get_time_dif
 import bert
