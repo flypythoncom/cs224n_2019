@@ -1,8 +1,14 @@
 
 update to transformer 2.3.0
+### 如何将bert model 的Tensorflow模型 转换为pytorch模型
 
-转换工具已经失效
+convert_bert_original_tf_checkpoint_to_pytorch.py
 
+运行脚本run.sh
+
+后生成对应pytorch_model.bin
+
+---
  chinese bert   
  
  https://github.com/ymcui/Chinese-BERT-wwm/blob/master/README_EN.md
